@@ -137,7 +137,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DAL\Scripts\" />
     <Folder Include="UI\Reportes\" />
   </ItemGroup>
   <ItemGroup>
@@ -151,6 +150,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DAL\Scripts\ArticulosDb.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

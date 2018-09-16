@@ -1,0 +1,17 @@
+C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\bin\Debug\SistemaCotizacionArticulos.exe.config
+C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\bin\Debug\SistemaCotizacionArticulos.exe
+C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\bin\Debug\SistemaCotizacionArticulos.pdb
+C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\bin\Debug\EntityFramework.dll
+C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\bin\Debug\EntityFramework.xml
+C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\obj\Debug\SistemaCotizacionArticulos.csprojAssemblyReference.cache
+C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\obj\Debug\SistemaCotizacionArticulos.MainForm.resources
+C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\obj\Debug\SistemaCotizacionArticulos.Properties.Resources.resources
+C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\obj\Debug\SistemaCotizacionArticulos.UI.Consultas.ConsultaArticulo.resources
+C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\obj\Debug\SistemaCotizacionArticulos.UI.Registros.RegistroArticulo.resources
+C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\obj\Debug\SistemaCotizacionArticulos.csproj.GenerateResource.cache
+C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\obj\Debug\SistemaCotizacionArticulos.csproj.CoreCompileInputs.cache
+C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\obj\Debug\SistemaCotizacionArticulos.csproj.CopyComplete
+C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\obj\Debug\SistemaCotizacionArticulos.exe
+C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\obj\Debug\SistemaCotizacionArticulos.pdb
