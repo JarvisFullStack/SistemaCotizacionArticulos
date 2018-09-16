@@ -30,8 +30,8 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.registroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cotizarArticuloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.articuloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -55,6 +55,13 @@
             this.registroToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.registroToolStripMenuItem.Text = "Registro";
             // 
+            // cotizarArticuloToolStripMenuItem
+            // 
+            this.cotizarArticuloToolStripMenuItem.Name = "cotizarArticuloToolStripMenuItem";
+            this.cotizarArticuloToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.cotizarArticuloToolStripMenuItem.Text = "Cotizar Articulo";
+            this.cotizarArticuloToolStripMenuItem.Click += new System.EventHandler(this.cotizarArticuloToolStripMenuItem_Click);
+            // 
             // consultaToolStripMenuItem
             // 
             this.consultaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -63,17 +70,10 @@
             this.consultaToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.consultaToolStripMenuItem.Text = "Consulta";
             // 
-            // cotizarArticuloToolStripMenuItem
-            // 
-            this.cotizarArticuloToolStripMenuItem.Name = "cotizarArticuloToolStripMenuItem";
-            this.cotizarArticuloToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.cotizarArticuloToolStripMenuItem.Text = "Cotizar Articulo";
-            this.cotizarArticuloToolStripMenuItem.Click += new System.EventHandler(this.cotizarArticuloToolStripMenuItem_Click);
-            // 
             // articuloToolStripMenuItem
             // 
             this.articuloToolStripMenuItem.Name = "articuloToolStripMenuItem";
-            this.articuloToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.articuloToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.articuloToolStripMenuItem.Text = "Articulo";
             this.articuloToolStripMenuItem.Click += new System.EventHandler(this.articuloToolStripMenuItem_Click);
             // 
@@ -87,6 +87,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainForm";
             this.Text = "Sistema Articulos";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
