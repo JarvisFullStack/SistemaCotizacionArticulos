@@ -17,6 +17,7 @@ namespace SistemaCotizacionArticulos.UI.Registros
         public RegistroArticulo()
         {
             InitializeComponent();
+            errorProvider = new ErrorProvider();
         }
 
         private void btnNuevo_Click(object sender, EventArgs e)

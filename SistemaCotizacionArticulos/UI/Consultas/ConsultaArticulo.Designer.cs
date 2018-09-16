@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnBuscar = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.HastaDateTimePicker = new System.Windows.Forms.DateTimePicker();
@@ -38,7 +39,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.ConsultaDataGridView = new System.Windows.Forms.DataGridView();
-            this.btnBuscar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ConsultaDataGridView)).BeginInit();
             this.SuspendLayout();
@@ -60,6 +60,19 @@
             this.groupBox1.Size = new System.Drawing.Size(496, 486);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.BackColor = System.Drawing.Color.Transparent;
+            this.btnBuscar.FlatAppearance.BorderSize = 0;
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBuscar.Image = global::SistemaCotizacionArticulos.Properties.Resources.find;
+            this.btnBuscar.Location = new System.Drawing.Point(317, 33);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(72, 52);
+            this.btnBuscar.TabIndex = 30;
+            this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // label4
             // 
@@ -154,18 +167,6 @@
             this.ConsultaDataGridView.RowTemplate.Height = 24;
             this.ConsultaDataGridView.Size = new System.Drawing.Size(389, 372);
             this.ConsultaDataGridView.TabIndex = 20;
-            // 
-            // btnBuscar
-            // 
-            this.btnBuscar.BackColor = System.Drawing.Color.Transparent;
-            this.btnBuscar.FlatAppearance.BorderSize = 0;
-            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBuscar.Image = global::SistemaCotizacionArticulos.Properties.Resources.find;
-            this.btnBuscar.Location = new System.Drawing.Point(317, 33);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(72, 52);
-            this.btnBuscar.TabIndex = 30;
-            this.btnBuscar.UseVisualStyleBackColor = false;
             // 
             // ConsultaArticulo
             // 
