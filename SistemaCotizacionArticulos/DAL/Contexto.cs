@@ -12,6 +12,7 @@ namespace SistemaCotizacionArticulos.DAL
     {
         
         public DbSet<Articulo> Articulo { get; set; }
+      
 
         public Contexto() : base("ConStr")
         { }

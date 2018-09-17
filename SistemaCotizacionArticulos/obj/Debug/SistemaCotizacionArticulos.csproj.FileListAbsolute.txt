@@ -15,3 +15,4 @@ C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArti
 C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\obj\Debug\SistemaCotizacionArticulos.csproj.CopyComplete
 C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\obj\Debug\SistemaCotizacionArticulos.exe
 C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\obj\Debug\SistemaCotizacionArticulos.pdb
+C:\Users\JarvisXxX\Source\Repos\SistemaCotizacionArticulos\SistemaCotizacionArticulos\obj\Debug\SistemaCotizacionArticulos.UI.Registros.RegistroExistencia.resources

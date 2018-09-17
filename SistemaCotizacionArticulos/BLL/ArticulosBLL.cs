@@ -2,6 +2,7 @@
 using SistemaCotizacionArticulos.Entidades;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace SistemaCotizacionArticulos.BLL
 {
-    class ArticulosBLL
+    public class ArticulosBLL
     {
         
         public static bool Guardar(Articulo articulo)
@@ -20,6 +21,9 @@ namespace SistemaCotizacionArticulos.BLL
             {
                 if (contexto.Articulo.Add(articulo) != null)
                 {
+                    //var existencia = contexto.ExistenciaArticulo.Find(articulo.ArticuloId);
+                    //existencia.Existencia += 1;
+                    //contexto.Entry(existencia).State = EntityState.Modified;
                     contexto.SaveChanges();
                     paso = true;
                 }
@@ -59,6 +63,10 @@ namespace SistemaCotizacionArticulos.BLL
             try
             {
                 Articulo articulo = contexto.Articulo.Find(id);
+                //var existencia = contexto.ExistenciaArticulo.Find(articulo.ArticuloId);
+                //existencia.Existencia -= 1;
+                //contexto.Entry(existencia).State = EntityState.Modified;
+
                 contexto.Articulo.Remove(articulo);
                 if (contexto.SaveChanges() > 0)
                 {

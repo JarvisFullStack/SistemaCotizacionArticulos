@@ -69,8 +69,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL\ArticulosBLL.cs" />
+    <Compile Include="BLL\ExistenciaArticuloBLL.cs" />
     <Compile Include="DAL\Contexto.cs" />
     <Compile Include="Entidades\Articulo.cs" />
+    <Compile Include="Entidades\ExistenciaArticulo.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +93,12 @@
     <Compile Include="UI\Registros\RegistroArticulo.Designer.cs">
       <DependentUpon>RegistroArticulo.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Registros\RegistroExistencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Registros\RegistroExistencia.Designer.cs">
+      <DependentUpon>RegistroExistencia.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -110,7 +118,12 @@
     <EmbeddedResource Include="UI\Registros\RegistroArticulo.resx">
       <DependentUpon>RegistroArticulo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Registros\RegistroExistencia.resx">
+      <DependentUpon>RegistroExistencia.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\SistemaCotizacionArticulos.Entidades.Articulo.datasource" />
+    <None Include="Properties\DataSources\SistemaCotizacionArticulos.Entidades.ExistenciaArticulo.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

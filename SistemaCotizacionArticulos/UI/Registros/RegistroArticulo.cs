@@ -41,6 +41,7 @@ namespace SistemaCotizacionArticulos.UI.Registros
 
         private void LlenaCampo(Articulo articulo)
         {
+            
             IDNumericUpDown.Value = articulo.ArticuloId;
             DescripcionTextBox.Text = articulo.Descripcion;
             PrecioTextBox.Text = Convert.ToString(articulo.Precio);
@@ -149,8 +150,11 @@ namespace SistemaCotizacionArticulos.UI.Registros
         {
             int id;
             Articulo articulo = new Articulo();
+            ExistenciaArticulo existencia = new ExistenciaArticulo();
             int.TryParse(IDNumericUpDown.Text, out id);
             articulo = ArticulosBLL.Buscar(id);
+            
+
 
             if (articulo != null)
             {
@@ -161,6 +165,13 @@ namespace SistemaCotizacionArticulos.UI.Registros
             else
                 MessageBox.Show("Articulo no Encontrado", "Fallo!!", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            RegistroExistencia registroExistencia = new RegistroExistencia();
+            registroExistencia.MdiParent = MainForm.ActiveForm;
+            registroExistencia.Show();
         }
     }
 }
